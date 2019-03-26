@@ -3,5 +3,7 @@ A documentation of Keyote
 
 ## Deployment instructions
 
-`git pull`
-`jekyll build`
+1. `git pull`
+
+
+2. `jekyll build`
