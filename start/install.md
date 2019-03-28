@@ -14,7 +14,7 @@ Please install both of them.
 	<div class="row">
 		<div class="col-sm text-center">
 			<h2>iOS</h2>
-			<p><img src="/assets/images/AppStoreBadge3x.png" style="width: 40%"></p>
+			<p><img src="{{ site.url }}/assets/images/AppStoreBadge3x.png" style="width: 40%"></p>
 			<p>Install the Keyote mobile app from Apple AppStore.</p>
 		</div>
 		<div class="col-sm text-center">
