@@ -6,6 +6,9 @@
   	<meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/css/style.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
   </head>
   <body>
 
@@ -29,9 +32,22 @@
     </header>
 
     <main>
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
-          <div class="col-md-12 pt-5 pb-5">
+
+          <div class="col-md-2 pt-5 pb-5">
+            <a class="nav-link" href="/">Home</a>
+            {% for item in site.data.sidebar.toc %}
+              <h6 style="padding: .5rem 1rem 0 1rem;">{{ item.title }}</h6>
+                <ul class="nav flex-column">
+                  {% for entry in item.subfolderitems %}
+                    <li class="nav-item"><a class="nav-link" href="{{ entry.url }}">{{ entry.page }}</a></li>
+                  {% endfor %}
+                </ul>
+            {% endfor %}
+          </div>
+
+          <div class="col-md-8 pt-5 pb-5">
             {{ content }}
           </div>
         </div>

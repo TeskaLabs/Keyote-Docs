@@ -1,0 +1,12 @@
+toc:
+
+- title: Get Started
+  subfolderitems:
+    - page: Install
+      url: /start/install
+
+    - page: Pairing
+      url: /start/pair
+
+    - page: Usage
+      url: /start/use
