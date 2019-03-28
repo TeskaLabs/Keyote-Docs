@@ -32,7 +32,7 @@ Please install both of them.
 		<div class="col-sm-4">
 			<a href="pair" class="btn btn-outline-primary btn-lg w-100">
 				<div>
-					<i class="fas fa-glass-cheers"></i>
+					<i class="fas fa-forward"></i>
 					<div class="cell-text">Next step: Pair</div>
 				</div>
 			</a>

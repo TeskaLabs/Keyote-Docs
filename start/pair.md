@@ -14,9 +14,17 @@ After you’ve [installed](install) both the Keyote mobile app and the Keyote de
 <div class="container mt-5">
 	<div class="row justify-content-center">
 		<div class="col-sm-4">
+			<a href="install" class="btn btn-outline-primary btn-lg w-100">
+				<div>
+					<i class="fas fa-backward"></i>
+					<div class="cell-text">Previous step: Install</div>
+				</div>
+			</a>
+		</div>
+		<div class="col-sm-4">
 			<a href="use" class="btn btn-outline-primary btn-lg w-100">
 				<div>
-					<i class="fas fa-glass-cheers"></i>
+					<i class="fas fa-forward"></i>
 					<div class="cell-text">Next step: Use</div>
 				</div>
 			</a>

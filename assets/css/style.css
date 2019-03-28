@@ -1,3 +1,12 @@
+a {
+	color: #005985;
+}
+
+.btn-outline-primary {
+	color: #005985;
+	border-color: #005985;	
+}
+
 code {
 	background-color: #ffeded;
 }
@@ -28,7 +37,7 @@ header .links {
 
 header .links a {
 	margin-left: 50px;
-	color: #777;
+	color: #005985;
 }
 
 header .links a:hover {
