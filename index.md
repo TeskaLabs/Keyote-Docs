@@ -14,21 +14,16 @@ Keyote enables you to use a smartphone as a security token e.g. for secure remot
 
 ## Smartphone as a Security Token
 
-_A security token is a physical device that acts as an electronic key to something.
+_A security token is a physical device that acts as an electronic key.
 The token is used in addition to or in place of a password._  
 --- [Wikipedia](https://en.wikipedia.org/wiki/Security_token)
 
 One very common example of the security token is a smard card,
 the card used to secure access to office building etc.
 
-Kazdy moderni smartphone ma v dnesni sobe kryptograficky chip.
-Zjednodusene reseno, pokud telefon ma ctectu otisku prstu nebo jinou biometrickou autorizaci, pak take musi obsahovat kryptograficky chip.
-Keyote vyuziva vlasnosti kryptografickeho chipu smartphone k tomu,
-aby bylo mozne telefon pouzivat jako security token.
+Nearly every modern smartphone contains a special security chip today. Apple has Security Enclave, and Android introduced Trusted Execution Environment respective TrustZone. If your phone has a fingerprint reader or other biometric authorization, then it must also contain this security chip. Keyote leverages abilities of this security chip to turn the smartphone in a security token.
 
-V pripade smartphone je bezpecnost navic jeste vylepsena moznosti pouzit biometrickou autorizaci.
-Znamena to, ze pouziti privatnich klicu z telefonu musi byt potvrzeno pomoci napr. otisku prstu.
-Toto je bezpecnejsi ochrana oproti smard card nebo tokenu, kde se bezne pouziva pouze PIN, ktery je mozne napr. odpozorovat.
+In the case of a smartphone, security is further enhanced by a biometric authentication. It means that a user must approve the use of private keys by Keyote by a fingerprint or Face ID. It is safer protection against a smart card or token protected only by PIN.
 
 Keyote app generates an private key and pairs with one or more computers. Paired computers may request operations using the key such that the private key never leaves the smartphone.
 
