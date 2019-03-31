@@ -7,26 +7,19 @@ permalink: start/pair
 Keyote Pairing
 ====================
 
-After you’ve [installed](install) both the Keyote mobile app and the Keyote desktop app, it’s time to pair the Keyote mobile app with your computer.
+After you’ve [installed](install) both the Keyote mobile app and the Keyote desktop app, it’s time to pair the Keyote mobile app with your computer.  
+For a best pairing experience, make sure that your mobile phone and a computer with Keyote are on the same Wi-Fi network,
+and Keyote application is started on both of them.
 
+Start the pairing process on the mobile phone:
 
 
 <div class="container mt-5">
-	<div class="row justify-content-center">
-		<div class="col-sm-4">
-			<a href="install" class="btn btn-outline-primary btn-lg w-100">
-				<div>
-					<i class="fas fa-backward"></i>
-					<div class="cell-text">Previous step: Install</div>
-				</div>
-			</a>
-		</div>
-		<div class="col-sm-4">
-			<a href="use" class="btn btn-outline-primary btn-lg w-100">
-				<div>
-					<i class="fas fa-forward"></i>
-					<div class="cell-text">Next step: Use</div>
-				</div>
+	<div class="row">
+		<div class="col-sm-12 text-center">
+			<hr />
+			<a href="use">
+				Continue to usage
 			</a>
 		</div>
 	</div>
