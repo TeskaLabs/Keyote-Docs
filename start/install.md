@@ -14,12 +14,19 @@ Please install both of them.
 	<div class="row">
 		<div class="col-sm text-center">
 			<h2>iOS</h2>
+			<!--
 			<p><img src="{{ site.url }}/assets/images/AppStoreBadge3x.png" style="width: 40%"></p>
 			<p>Install the Keyote mobile app from Apple AppStore.</p>
+			-->
+			<p>Currently available only for invited early users via Testflight.</p>
 		</div>
 		<div class="col-sm text-center">
 			<h2>macOS</h2>
-			<p><i class="fas fa-download fa-3x fa-border"></i></p>
+			<p>
+				<a href="https://keyote.blob.core.windows.net/get/macos/keyote-installer-19.04.pkg">
+					<i class="fas fa-download fa-3x fa-border"></i>
+				</a>
+			</p>
 			<p>
 				Download the Keyote desktop app installer and launch it.
 			</p>
