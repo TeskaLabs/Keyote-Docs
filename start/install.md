@@ -21,7 +21,7 @@ Please install both of them.
 		<div class="col-sm text-center">
 			<h2>macOS</h2>
 			<p>
-				<a href="https://keyote.blob.core.windows.net/get/macos/keyote-installer-19.04.pkg">
+				<a id="macos-download-url" href="#">
 					<i class="fas fa-download fa-3x fa-border"></i>
 				</a>
 			</p>
@@ -42,3 +42,12 @@ Please install both of them.
 		</div>
 	</div>
 </div>
+
+<script type="text/javascript">
+(function() {
+	var jqxhr = $.ajax("https://keyote.blob.core.windows.net/get/macos/latest.json")
+	.done(function(data) {
+		$('#macos-download-url').attr("href", data.url);
+	})
+})();
+</script>
