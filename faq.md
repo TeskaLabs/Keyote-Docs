@@ -65,7 +65,7 @@ generate a new set of keys
 and replace the old ones.
 
 
-### Does TeskaLabs, vendor of Keyote, have access to my SSH private key?
+### Does TeskaLabs, vendor of Keyote, have access to my keys?
 
 Keyote is built on top of an end-to-end verified and encrypted architecture.
 This means zero trust.
