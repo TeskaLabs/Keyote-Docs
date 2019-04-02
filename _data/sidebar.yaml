@@ -10,3 +10,8 @@ toc:
 
     - page: Usage
       url: /start/use
+
+- title: General
+  subfolderitems:
+    - page: FAQ
+      url: /faq
