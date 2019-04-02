@@ -33,6 +33,7 @@ Once paired, these two applications communicate over local networks such as Wi-F
 A communication is encrypted, so it could be used over public untrusted networks.
 
 Keyote relies [Bonjour](https://en.wikipedia.org/wiki/Bonjour_(software)) or [Zeroconf](https://en.wikipedia.org/wiki/Zero-configuration_networking) to find available peers.
+It works very well in most typical cases.s
 
 If you have a problem with a connectivity,
 please use USB cable or a create a hot spot on the phone and connect your computer to it.
@@ -62,6 +63,15 @@ _Basically, what the attackers need is a complete high resolution, non-smudged c
 Install a Keyote app on your new phone,
 generate a new set of keys
 and replace the old ones.
+
+
+### Does TeskaLabs, vendor of Keyote, have access to my SSH private key?
+
+Keyote is built on top of an end-to-end verified and encrypted architecture.
+This means zero trust.
+We, Keyote team, cannot access your keys or see where you're authenticating.
+The keys only live in the Keyote app on your phone.
+You must authorize the use of keys with a biometry (finger print or Face ID). 
 
 
 ## SSH
@@ -111,10 +121,6 @@ With a security token you can generate and store SSH keys in a separate piece of
 While the private key might not be extractable from the device, users now have to purchase and carry around another piece of hardware that takes up a USB port.
 The attacked can [look over your shoulder](https://en.wikipedia.org/wiki/Shoulder_surfing_(computer_security)) to steal your security token PIN and then steal the token itself.
 
-
-### Does TeskaLabs, vendor of Keyote, have access to my SSH private key?
-
-No, the SSH private key is generated on the mobile device and never leaves.
 
 
 ### If the SSH private key never leaves my phone, how does it work?
