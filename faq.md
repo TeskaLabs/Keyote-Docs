@@ -25,12 +25,14 @@ We will release a Keyote for Windows and Linux soon.
 
 ### How Keyote on mobile phone and computer communicates? 
 
-The Keyote consists of two apps:
+Keyote consists of two apps:
 one is Keyote running on your phone,
 second is Keyote running on your computer.
 
 Once paired, these two applications communicate over local networks such as Wi-Fi.
 A communication is encrypted, so it could be used over public untrusted networks.
+
+Keyote relies [Bonjour](https://en.wikipedia.org/wiki/Bonjour_(software)) or [Zeroconf](https://en.wikipedia.org/wiki/Zero-configuration_networking) to find available peers.
 
 If you have a problem with a connectivity,
 please use USB cable or a create a hot spot on the phone and connect your computer to it.
