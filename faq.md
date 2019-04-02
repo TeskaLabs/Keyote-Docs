@@ -36,7 +36,15 @@ If you have a problem with a connectivity,
 please use USB cable or a create a hot spot on the phone and connect your computer to it.
 
 
-### My phone with Keytoe was stolen, what should I do?
+### How does my phone communicate with my computer securely?
+
+All communication is encrypted and authenticated using keys related to so-called identity of each device.
+These keys are exchanged during a pairing process and pinned for a given communication session.
+The communication is futher enhanced by a session-specific key, that prevents replay attacks.
+
+Keyote employs ECDSA for communication and ECDH for forward secrecy.
+
+### My phone with Keyote was stolen, what should I do?
 
 That's unfortunate, but don't worry, keys in the phone are protected by a biometric authorization
 (based on the phone type it is Touch ID, Face ID, ...).
@@ -119,13 +127,6 @@ It follows [PKCS#11 Cryptography Standard](https://en.wikipedia.org/wiki/PKCS_11
 
 Upon install, Keyote adds a few lines to your SSH configuration at `~/.ssh/config` that cause SSH to offer your Keyote key.
 Your other keys will still be presented and your Keyote key will only be used if it has access to the service you are connecting to.
-
-
-### How does my phone communicate with my computer securely?
-
-All communication is encrypted and authenticated using keys related to so-called identity of each device.
-These keys are exchanged during a pairing process and pinned for a given communication session.
-The communication is futher enhanced by a session-specific key, that prevents replay attacks.
 
 
 ### Can I backup my private key?
