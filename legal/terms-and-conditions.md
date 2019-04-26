@@ -1,6 +1,7 @@
 ---
 layout: default
 title:  "Terms and Conditions"
+sidebar: keyote
 ---
 
 # Terms and Conditions

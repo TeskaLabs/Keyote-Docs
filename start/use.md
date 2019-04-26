@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Keyote usage
-permalink: start/use
+sidebar: keyote
 ---
 
 Keyote Usage

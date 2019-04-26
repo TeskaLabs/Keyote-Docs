@@ -1,6 +1,7 @@
 ---
 layout: default
 title:  "Privacy Policy"
+sidebar: keyote
 ---
 
 # Privacy Policy

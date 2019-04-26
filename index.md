@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Keyote documentation
-sidebar: toc
+sidebar: keyote
 ---
 
 Keyote documentation

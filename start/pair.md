@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Keyote pairing
-permalink: start/pair
+sidebar: keyote
 ---
 
 Keyote Pairing

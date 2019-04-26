@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Install Keyote
-permalink: start/install
+sidebar: keyote
 ---
 
 Install Keyote
