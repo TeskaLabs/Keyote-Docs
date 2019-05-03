@@ -33,7 +33,7 @@ Keyote app generates an private key and pairs with one or more computers. Paired
 <div class="container mt-5">
 	<div class="row">
 		<div class="col-sm">
-			<a href="{{ site.url }}/start/install" class="btn btn-outline-primary btn-lg w-100">
+			<a href="{{ site.url }}/keyote/start/install" class="btn btn-outline-primary btn-lg w-100">
 				<div>
 					<i class="fas fa-download"></i>
 					<div class="cell-text">Install</div>
@@ -41,7 +41,7 @@ Keyote app generates an private key and pairs with one or more computers. Paired
 			</a>
 		</div>
 		<div class="col-sm">
-			<a href="{{ site.url }}/start/pair" class="btn btn-outline-primary btn-lg w-100">
+			<a href="{{ site.url }}/keyote/start/pair" class="btn btn-outline-primary btn-lg w-100">
 				<div>
 					<i class="fas fa-glass-cheers"></i>
 					<div class="cell-text">Pair</div>
@@ -49,7 +49,7 @@ Keyote app generates an private key and pairs with one or more computers. Paired
 			</a>
 		</div>
 		<div class="col-sm">
-			<a href="{{ site.url }}/start/use" class="btn btn-outline-primary btn-lg w-100">
+			<a href="{{ site.url }}/keyote/start/use" class="btn btn-outline-primary btn-lg w-100">
 				<div>
 					<i class="fas fa-user-shield"></i>
 					<div class="cell-text">Use</div>
