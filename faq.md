@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Keyote FAQ
-sidebar: toc
+sidebar: keyote
 ---
 
 # Frequently Asked Questions

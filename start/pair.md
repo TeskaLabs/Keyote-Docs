@@ -28,7 +28,7 @@ Congratulations!
 <div class="container mt-5">
 	<div class="row">
 		<div class="col-sm-12 text-center">
-			<img class="img-fluid" style="max-width:400px;" src="{{ site.url }}/assets/images/ios-pairing-aid.png"/>
+			<img class="img-fluid" style="width:400px;" src="{{ site.url }}/keyote/assets/images/ios-pairing-aid.png"/>
 		</div>
 	</div>
 </div>
