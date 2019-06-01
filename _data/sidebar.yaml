@@ -1,0 +1,22 @@
+toc:
+
+- title: Get Started
+  subfolderitems:
+    - page: Install
+      url: /start/install
+
+    - page: Pairing
+      url: /start/pair
+
+    - page: Usage
+      url: /start/use
+
+- title: General
+  subfolderitems:
+    - page: FAQ
+      url: /faq
+
+- title: Apps
+  subfolderitems:
+    - page: SSH Client
+      url: /applications/openssh-client

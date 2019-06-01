@@ -20,6 +20,7 @@ Please install both of them.
 		</div>
 		<div class="col-sm text-center">
 			<h2>macOS</h2>
+			<p class="text-danger">&nbsp;</p>
 			<p>
 				<a id="macos-download-url" href="#">
 					<i class="fas fa-download fa-3x fa-border"></i>

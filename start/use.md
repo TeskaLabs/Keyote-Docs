@@ -8,3 +8,9 @@ Keyote Usage
 ====================
 
 > **Note**: First make sure that you [paired](pair) your Keyote mobile app with a Keyote desktop app on your computer.
+
+
+Applications
+------------
+
+ * [OpenSSH client](../applications/openssh-client)
