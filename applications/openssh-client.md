@@ -29,7 +29,7 @@ The `authorized_keys` file specifies the SSH public keys that can be used for lo
 What you need to do, is to open Keyote app on the mobile phone and export **RSA** public key in SSH public key format.
 
 
-![Export the RSA key for SSH in Keyote](./openssh-key-export.jpeg)  
+![Export the RSA key for SSH in Keyote](./openssh-client-media/openssh-key-export.jpeg)  
 _Keyote for iOS_
 
 
@@ -42,7 +42,7 @@ Automated integration
 Keyote takes care about the integration with your OpenSSH client automatically.
 If you prefer to configure OpenSSH on your own, unselect the configuration option and proceed to the next chapter.
 
-![Keyote and automated integration with OpenSSH client](./openssh-keyote.png)
+![Keyote and automated integration with OpenSSH client](./openssh-client-media/openssh-keyote.png)
 
 
 Manual integration
