@@ -1,9 +1,13 @@
-# Keyote-Docs
-A documentation of Keyote
+# SeaCat documentation
 
-## Deployment instructions
+## Description
 
-1. `git pull`
+Welcome to SeaCat documentation!
 
+You can find and edit documentation content in markdown files.
 
-2. `jekyll build`
+Site's layout can be edited in `teskalabs-docs` repository.
+
+## Deployment
+
+For deployment instructions please refer to `teskalabs-docs` respository.
