@@ -1,8 +1,8 @@
-# SeaCat documentation
+# Keyote documentation
 
 ## Description
 
-Welcome to SeaCat documentation!
+Welcome to Keyote documentation!
 
 You can find and edit documentation content in markdown files.
 
