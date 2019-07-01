@@ -19,6 +19,6 @@ toc:
       url: /faq
       
 - title: Apps
-	subfolderitems:
-	  - page: SSH Client
-	    url: /applications/openssh-client
+  subfolderitems:
+    - page: SSH Client
+      url: /applications/openssh-client
