@@ -14,8 +14,8 @@ Please install both of them.
 	<div class="row">
 		<div class="col-sm text-center">
 			<h2>iOS</h2>
-			<p class="text-danger">Currently available only for invited early users via Testflight.</p>
-			<p><img src="{{ site.url }}/keyote/assets/images/AppStoreBadge3x.png" style="width: 40%"></p>
+			<p class="text-danger">&nbsp;</p>
+			<p><a href="https://apps.apple.com/app/id1456541180"><img src="{{ site.url }}/keyote/assets/images/AppStoreBadge3x.png" style="width: 40%"></a></p>
 			<p>Install the Keyote mobile app from Apple AppStore.</p>
 		</div>
 		<div class="col-sm text-center">
