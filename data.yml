@@ -1,0 +1,26 @@
+product: keyote
+
+toc:
+
+- title: Introduction
+  url: /
+- title: Get Started
+  url: /start
+  items:
+    - title: Install
+      url: /start/install
+
+    - title: Pairing
+      url: /start/pair
+
+    - title: Usage
+      url: /start/use
+
+- title: FAQ
+  url: /faq
+      
+- title: Apps
+  url: /applications
+  items:
+    - title: SSH Client
+      url: /applications/openssh-client
