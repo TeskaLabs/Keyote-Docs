@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Keyote and OpenSSH client
-permalink: applications/openssh-client
 ---
 
 OpenSSH client and Keyote

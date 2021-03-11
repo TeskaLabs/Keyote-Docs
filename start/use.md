@@ -13,4 +13,4 @@ Keyote Usage
 Applications
 ------------
 
- * [OpenSSH client](../applications/openssh-client)
+ * [OpenSSH client]({{site.url}}/{{page.PRODUCT}}/applications/openssh-client)
